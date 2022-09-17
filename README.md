@@ -1,8 +1,8 @@
 # F3560R Characterization
 
-I snatched a nifty YIG filter off ebay the other day. I bought it on account of the 1.85mm connectors, as they suggested a frequency range that was relevant to my interests. Of course, I was taking a gamble, so the next step was to characterize the filter and see if the gamble paid off. Spoiler alert: it did :)
+I snatched a nifty YIG filter off ebay the other day. I bought it on account of the 1.85mm connectors, as they suggested a frequency range that was relevant to my interests. Of course, it was still a gamble, so the next step was to characterize the filter and see if the gamble paid off. This repo tells the story of said characterization.
 
-This repo tells the story of said characterization.
+Spoiler alert: it paid off :)
 
 
 <img src="F3560R.jpg" width="800"/>
