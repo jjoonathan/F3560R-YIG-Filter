@@ -9,7 +9,7 @@ Spoiler alert: it paid off :)
 
 ## Passband Response
 
-This module's "deliverable" is a current-controlled bandpass characteristic. Put in a current I, get a bandpass centered at frequency f. Up to 50GHz, I can characterize this with my repaired 8510C network analyzer. Results here: https://jjoonathan.github.io/sweep1.html
+This module's "deliverable" is a current-controlled bandpass characteristic. Put in a current I, get a bandpass centered at frequency f. Up to 50GHz, I can characterize this with my repaired 8510C network analyzer. Results:
 
 <a href="https://jjoonathan.github.io/sweep1.html">
 <img src="F3560R S21 49G.png" width="800"/>
