@@ -7,23 +7,28 @@ Spoiler alert: it paid off :)
 
 <img src="F3560R.jpg" width="800"/>
 
-## Frequency Response
+## Passband Response
 
-The "deliverable" here is a current-controlled bandpass filter. Up to 50GHz, I can characterize this with my repaired 8510C network analyzer. Results here: https://jjoonathan.github.io/sweep1.html
+This module's "deliverable" is a current-controlled bandpass characteristic. Put in a current I, get a bandpass centered at frequency f. Up to 50GHz, I can characterize this with my repaired 8510C network analyzer. Results here: https://jjoonathan.github.io/sweep1.html
 
-Above 50GHz, I have to use an "improvised" scalar analysis setup. Results:
+* _F3560R Data Gathering.ipynb_: controls instruments to conduct measurement.
+* _F3560R YIG Data Fit.ipynb_: fits a model.
+
+## Leakage Response
+
+Above 50GHz, I have to use an "improvised" scalar analysis setup. The noise floor is rather high, but it demonstrates an important point: the energy demand goes parabolic at 60GHz, but the YIG becomes leaky between 65GHz and 75GHz and this could be used to extend the useful range of a spectrum analyzer slightly beyond the upper frequency limit of the YIG. Cool!
 
 <img src="F3560R YIG Leakage.png" width="800"/>
 
 
-# I(f) -- Current Demand
+## I(f) -- Current Demand
 
 The frequency is controlled by current, so the key engineering question is: how much current (and power) is required for a given frequency? A quantitative answer to this question allows for frequency planning and controller design.
 
 <img src="F3560R YIG Main Coil Current.png" width="800"/>
 <img src="F3560R YIG Main Coil Power Consumption.png" width="800"/>
 
-# Residuals
+## Residuals
 
 How good is the polynomial spline model at capturing the slow frequency response of the YIG? The residual plot tells us.
 
