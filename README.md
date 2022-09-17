@@ -16,12 +16,13 @@ This module's "deliverable" is a current-controlled bandpass characteristic. Put
 <p align="center">Click for Live</p>
 </a>
 
-* _F3560R Data Gathering.ipynb_: controls instruments to conduct measurement.
-* _F3560R YIG Data Fit.ipynb_: fits a model.
+* _F3560R Data Gathering.ipynb_: controls instruments, conducts measurement
+* _F3560R YIG Data Fit.ipynb_: fits a highly empirical model
+* _F3560R YIG Polynomial Fit.ipynb_: attempts to compress the model
 
 ## Leakage Response
 
-Above 50GHz, I have to use an "improvised" scalar analysis setup. The noise floor is rather high, but it demonstrates an important point: the energy demand goes parabolic at 60GHz, but the YIG becomes leaky between 65GHz and 75GHz and this could be used to extend the useful range of a spectrum analyzer slightly beyond the upper frequency limit of the YIG. Cool!
+Above 50GHz, I have to use an "improvised" scalar analysis setup. The noise floor is rather high, but it demonstrates an important point: the energy demand to drive the YIG coil goes parabolic at 60GHz, where the high-permeability alloy starts to saturate, but the YIG becomes leaky between 65GHz and 75GHz and this could be used to extend the useful range of a spectrum analyzer slightly beyond the upper frequency limit of the YIG. Cool!
 
 <img src="F3560R YIG Leakage.png" width="800"/>
 
