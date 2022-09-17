@@ -7,6 +7,19 @@ Spoiler alert: it paid off :)
 
 <img src="F3560R.jpg" width="800"/>
 
+## Measurement Setup
+
+* Programmable Power Supply: GPP-4323
+* VNA to 50GHz: HP 8510C
+* SNA above 50GHz: Marki quadruplers & mixers, Centellax amplifier, SignalHound spectrum analyzer
+
+### VNA to 50GHz
+<img src="F3560R-8510C.jpg" width="800"/>
+
+### SNA above 50GHz
+<img src="F3560R-SNA.jpg" width="800"/>
+
+
 ## Passband Response
 
 This module's "deliverable" is a current-controlled bandpass characteristic. Put in a current I, get a bandpass centered at frequency f. Up to 50GHz, this can characterized  with my repaired 8510C network analyzer. Results:
