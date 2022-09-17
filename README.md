@@ -5,7 +5,7 @@ I snatched a nifty YIG filter off ebay the other day. I bought it on account of 
 Spoiler alert: it paid off :)
 
 
-<img src="F3560R.jpg" width="800"/>
+<img src="F3560R-module.jpg" width="800"/>
 
 ## Measurement Setup
 
