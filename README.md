@@ -11,7 +11,10 @@ Spoiler alert: it paid off :)
 
 This module's "deliverable" is a current-controlled bandpass characteristic. Put in a current I, get a bandpass centered at frequency f. Up to 50GHz, I can characterize this with my repaired 8510C network analyzer. Results here: https://jjoonathan.github.io/sweep1.html
 
-<a href="https://jjoonathan.github.io/sweep1.html"><img src="F3560R S21 49G.png" width="800"/></a>
+<a href="https://jjoonathan.github.io/sweep1.html">
+<img src="F3560R S21 49G.png" width="800"/>
+<div style="text-align:center">Click for Live</div>
+</a>
 
 * _F3560R Data Gathering.ipynb_: controls instruments to conduct measurement.
 * _F3560R YIG Data Fit.ipynb_: fits a model.

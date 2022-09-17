@@ -1,0 +1,15 @@
+So a while back I saw one of those "Steel Cube" style Ferretec YIG filters on ebay with the part number F3560R. I think I've heard that these sometimes show up in R&S and Anritsu kit, but I'm primarily experienced in Advantest and HP so I don't really know (that's partially why I'm posting -- I'm fishing for information ;D ). There's a Ferretec part number guide but it didn't seem to give reasonable results, except that "R" probably means "custom job." In any case, the YIG had 1.85mm connectors on it, and I'm a sucker for 1.85mm connectors, so I bought. It didn't exactly break the bank, but I paid enough to make this a spicy bet  >:D
+
+I swept it on my 8510 VNA and found that its passband started to kick in at about 3.5GHz and remained strong through 26.5GHz, which was the limit of my 83621 source at the time. "3.5" is familiar -- could it be the "35" from the part number? Could "60" mean 60GHz? So far, so good. Exciting!
+
+Some time later I found a doubler module at a small off-ebay shop in Boston and turned my 83621 into a 83651, bringing my 8510's network analysis range up to 50GHz. Of course, one of the first things I swept was the mystery YIG -- and its response remained strong all the way through 50GHz! Very cool!
+
+Fast forward to Christmas -- I got myself some Marki modules that finally let me do scalar analysis above 50GHz. Down the road, they'll also play a key role in the spectrum analyzer I hope to convert the YIG into,  but one thing at a time. I've finished characterizing the mystery YIG and here are the results! Long story short: F3560R is picture perfect to 50GHz, starts to saturate a bit at 60GHz, and above that it gets leaky and hot. Presumably this has to do with magnetic saturation of some kind, but I'm not an expert in ferrites so I can only speculate. Still, hopefully these measurements help calibrate expectations if anyone else is thinking about buying one!  
+
+Github: https://github.com/jjoonathan/F3560R-YIG-Filter
+
+S21: https://jjoonathan.github.io/sweep1.html
+
+PS -- for those of you who are concerned about my connectors, don't worry, the ad-hoc "scalar analyzer" was supported on both ends by machinist jacks.
+
+
