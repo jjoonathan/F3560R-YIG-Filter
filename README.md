@@ -13,7 +13,7 @@ This module's "deliverable" is a current-controlled bandpass characteristic. Put
 
 <a href="https://jjoonathan.github.io/sweep1.html">
 <img src="F3560R S21 49G.png" width="800"/>
-<div style="text-align:center">Click for Live</div>
+<p style="text-align: center">Click for Live</p>
 </a>
 
 * _F3560R Data Gathering.ipynb_: controls instruments to conduct measurement.
