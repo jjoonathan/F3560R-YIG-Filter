@@ -1,6 +1,6 @@
 # F3560R Characterization
 
-I snatched a nifty YIG filter off ebay the other day. I bought it on account of the 1.85mm connectors, as they suggested a frequency range that was relevant to my interests. Of course, it was still a gamble, so the next step was to characterize the filter and see if the gamble paid off. This repo tells the story of said characterization.
+I scored a nifty YIG Tuned Filter (YTF) on ebay the other day. I bought it on account of the 1.85mm connectors, as they suggested a frequency range that was relevant to my interests. Of course, it was still a gamble, so the next step was to characterize the filter and see if the gamble paid off. This repo tells the story of said characterization.
 
 Spoiler alert: it paid off :)
 
@@ -22,7 +22,7 @@ Spoiler alert: it paid off :)
 
 ## Passband Response
 
-This module's "deliverable" is a current-controlled bandpass characteristic. Put in a current I, get a bandpass centered at frequency f. Up to 50GHz, this can characterized  with my repaired 8510C network analyzer. Results:
+The YTF's "deliverable" is a current-controlled bandpass characteristic. Put in a current I, get a bandpass centered at frequency f. I(f) is the key control characteristic. Up to 50GHz, I characterized this with my repaired 8510C network analyzer. Results:
 
 <a href="https://jjoonathan.github.io/sweep1.html">
 <img src="F3560R S21 49G.png" width="800"/>
@@ -35,7 +35,7 @@ This module's "deliverable" is a current-controlled bandpass characteristic. Put
 
 ## Leakage Response
 
-Above 50GHz, I have to use an "improvised" scalar analysis setup. The noise floor is rather high, but it demonstrates an important point: the energy demand to drive the YIG coil goes parabolic at 60GHz, where the high-permeability alloy starts to saturate. However, the YIG becomes leaky between 65GHz and 75GHz, and this could be used to extend the useful range of a spectrum analyzer slightly beyond the nominal upper frequency limit of the YIG! Cool!
+Above 50GHz, I had to use an "improvised" scalar analysis setup. The noise floor is rather high, but it demonstrates an important point: the energy demand to drive the YIG coil goes parabolic at 60GHz, where the high-permeability alloy starts to saturate. However, the YIG becomes leaky between 65GHz and 75GHz, and this could be used to extend the useful range of a spectrum analyzer slightly beyond the nominal upper frequency limit of the YIG! Cool!
 
 <img src="F3560R YIG Leakage.png" width="800"/>
 
